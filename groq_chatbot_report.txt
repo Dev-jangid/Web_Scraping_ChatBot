@@ -1,0 +1,86 @@
+Assignment Completion Report
+
+
+Chat Bot Architecture: 
+
+User Input 
+      ↓
+[1] URL passed via command line
+      ↓
+[2] Web Scraping Module (fetch_website_content)
+      - Uses requests to fetch the HTML
+      - Uses BeautifulSoup to extract <p> and <h1>–<h6> content
+      ↓
+[3] Text Processing (process_content)
+      - Cleans and trims the text to 28,000 characters
+      ↓
+[4] Groq API Interface (generate_chat_response)
+      - Uses LLaMA 3 (llama3-70b-8192)
+      - Sends cleaned text as system context
+      - Sends user question as input
+      ↓
+[5] Response Generation
+      - Returns the model's reply based on the context only
+      ↓
+[6] CLI Chat Loop
+      - Continues accepting user input until 'exit' or 'quit'
+
+
+
+
+
+Step-by-Step Implementation Process
+-----------------------------------
+
+1. Requirement Analysis
+   ---------------------
+   The objective was to develop a command-line chatbot that:
+   - Accepts a URL input.
+   - Scrapes textual content from the page.
+   - Processes the content to fit within a defined context length.
+   - Utilizes Groq's LLaMA 3 model to answer user queries based solely on the scraped content.
+
+2. Environment Setup
+   ------------------
+   - Installed necessary Python libraries:
+     - requests for HTTP requests.
+     - beautifulsoup4 for parsing HTML content.
+     - python-dotenv for securely loading environment variables.
+     - groq for accessing the Groq API.
+   - Created a .env file to store the GROQ_API_KEY securely.
+
+3. Web Scraping Module
+  
+   - Built a function fetch_website_content(url) that:
+     - Sends a GET request with a user-agent header.
+     - Parses HTML using BeautifulSoup.
+     - Extracts readable content from <p> and heading tags (<h1> to <h6>).
+     - Returns cleaned raw text from the webpage.
+
+4. Text Preprocessing
+   -------------------
+   - Implemented a process_content(text) function to:
+     - Normalize and clean the text (removes extra spaces and line breaks).
+     - Trim content to a maximum length of 28,000 characters to ensure model compatibility.
+
+5. Chat Response Generation
+   --------------------------
+   - Integrated Groq's LLaMA 3 (llama3-70b-8192) model.
+   - Defined the generate_chat_response(user_input, context) function to:
+     - Send both context and user query to the model.
+     - Return only responses grounded in the provided context.
+     - Handle API failures gracefully.
+
+6. CLI Chat Loop
+    -----------------------
+      - Continues accepting user input until 'exit' or 'quit'
+
+7. Testing and Error Handling
+   ----------------------------
+   - Verified:
+     - Proper content extraction from various websites.
+     - Resilience to network errors or invalid URLs.
+     - Correct and context-restricted responses.
+   - Ensured the chatbot declines to answer when the context does not provide relevant information.
+
+

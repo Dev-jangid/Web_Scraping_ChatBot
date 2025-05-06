@@ -1,0 +1,32 @@
+python lib installation command  : pip install argparse requests beautifulsoup4 groq python-dotenv
+
+command to run .py file in terminal :
+
+python < file name.py> <web url links>   
+examples : command in terminal 
+
+
+1.     python Assessment.py https://botpenguin.com/
+1.     python Assessment.py https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51
+2.     python Assessment.py https://www.geeksforgeeks.org/python-interview-questions/
+
+3.     python Assessment.py https://akash-mathur.medium.com/advanced-rag-enhancing-retrieval-efficiency-through-evaluating-reranker-models-using-llamaindex-3f104f24607e
+
+
+
+.py file run command   + Website url link
+python Assessment.py https://www.geeksforgeeks.org/python-interview-questions/
+
+questions : 
+   
+   1.  tell me about the Website ??
+   2. tell me about the botpenguin??
+
+
+for close terminal type :  "Exit"
+
+
+
+
+
+
