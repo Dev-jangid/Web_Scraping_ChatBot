@@ -4,7 +4,7 @@
 
 python < file name.py> <web url links>   
       examples : command run in terminal
-          Comamnd :   `python Assessment.py https://www.geeksforgeeks.org/`
+          Comamnd :   `python Web_Scraping_Chatbot.py https://www.geeksforgeeks.org/`
  
 
 ###  `Web_Scraping_ChatBot`
@@ -13,7 +13,7 @@ python < file name.py> <web url links>
 
 python < file name.py> <web url links>   
       examples : command run in terminal
-          Comamnd :   `python Assessment.py https://www.geeksforgeeks.org/`
+          Comamnd :   `python Web_Scraping_Chatbot.py https://www.geeksforgeeks.org/`
  
 
 ### `Work Flow`
