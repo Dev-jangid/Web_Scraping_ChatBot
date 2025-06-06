@@ -1,4 +1,13 @@
-###  `Web_Scraping_ChatBot`
+### 🔑 API Keys
+
+1. **Groq API Key**:
+
+   * Sign up or log in at [https://console.groq.com](https://console.groq.com)
+   * Generate an API key from the dashboard
+
+
+
+2. ###  `Web_Scraping_ChatBot`
 
 #### command to run .py file in terminal :
 
