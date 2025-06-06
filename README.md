@@ -41,3 +41,11 @@ python < file name.py> <web url links>
       `↓`
 7.  CLI Chat Loop.<br><br>    
       - Continues accepting user input until 'exit' or 'quit'
+
+
+
+
+![image](https://github.com/user-attachments/assets/524100bc-0e02-4e41-aaa0-f8a5b0835aa2)
+![image](https://github.com/user-attachments/assets/538fa3af-3c2f-4efb-be32-bf9c3c74fbc9)
+![image](https://github.com/user-attachments/assets/198e01ed-1a87-40a9-898b-b75b3a70cc10)
+![image](https://github.com/user-attachments/assets/846f03ec-3c24-4983-b6eb-e45130f204bc)
