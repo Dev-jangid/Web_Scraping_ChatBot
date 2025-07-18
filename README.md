@@ -48,7 +48,7 @@ python < file name.py> <web url links>
   
         
 
-<br> ##### Web Scraping Chatbot v2: Enhanced with Conversational Memory </br>
+  #### <br> ``` Web Scraping Chatbot v2: Enhanced with Conversational Memory ``` </br>
 
 <img width="1873" height="1030" alt="image" src="https://github.com/user-attachments/assets/c194f0ec-ddf9-4ed0-9285-e8a9f6e96f4c" />
 <img width="1855" height="991" alt="image" src="https://github.com/user-attachments/assets/30a239b7-97d5-4bc8-ac9f-e13d5d32fa87" />
