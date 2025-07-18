@@ -2,7 +2,7 @@
 
 
 
-##### ``` Chatbot link : https://web-scraping-with-history.streamlit.app/  ```
+### ``` Chatbot link ```  : [https://web-scraping-with-history.streamlit.app/ ](https://web-scraping-with-history.streamlit.app/)
 
 1. **Groq API Key**:
 
@@ -45,15 +45,16 @@ python < file name.py> <web url links>
       `↓`
 7.  CLI Chat Loop.<br><br>    
       - Continues accepting user input until 'exit' or 'quit'
+  
+        
 
-##### Web Scraping Chatbot v2: Enhanced with Conversational Memory
-vv<img width="1873" height="1030" alt="image" src="https://github.com/user-attachments/assets/c194f0ec-ddf9-4ed0-9285-e8a9f6e96f4c" />
+<br> ##### Web Scraping Chatbot v2: Enhanced with Conversational Memory </br>
+
+<img width="1873" height="1030" alt="image" src="https://github.com/user-attachments/assets/c194f0ec-ddf9-4ed0-9285-e8a9f6e96f4c" />
 <img width="1855" height="991" alt="image" src="https://github.com/user-attachments/assets/30a239b7-97d5-4bc8-ac9f-e13d5d32fa87" />
 
 <img width="1853" height="1022" alt="image" src="https://github.com/user-attachments/assets/99a26db5-9a6c-421a-b06e-1d669fbc0aae" />
 <img width="1862" height="999" alt="image" src="https://github.com/user-attachments/assets/ca14e9a4-3b4c-42be-839e-3484017320c3" />
-
-
 
 
 
